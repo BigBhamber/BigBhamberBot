@@ -2,9 +2,9 @@ const Discord = require('discord.js')
 const fetch = require("node-fetch");
 const client = new Discord.Client()
 var message = 0
-client.login("Nzk2NDQxMTc0NDk5Nzg2Nzgy.X_X9pQ.FiqSnjx2fB_ebnlG-Kmi51yUr2c")
+client.login("TOKEN HERE")
 client.on('ready', () => {
-    var generalChannel = client.channels.cache.get("796460268602916926") // Replace with known channel ID
+    var generalChannel = client.channels.cache.get("TOKEN HERE") // Replace with known channel ID
     generalChannel.send("BigBhamber")
 })
 client.on('message', (receivedMessage) => {
